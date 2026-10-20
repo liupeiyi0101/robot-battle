@@ -1,0 +1,1050 @@
+{
+  "map_ID": "002",
+  "name": "单挑战场",
+  "description": "一张机甲单挑地图",
+  "mission": {
+    "type": "duel",
+    "objective": "Shot down the enemy mech",
+    "summary": "Team I 和 Team II 都各有一台机甲。击坠对方即获得胜利。若同一回合双方都被击坠则为平局。"
+  },
+  "source_files": {
+    "map_xlsx": "map_data.xlsx",
+    "worksheet": "Solo Field"
+  },
+  "vertex_coordinates": [
+    [
+      -5,
+      0
+    ],
+    [
+      -5,
+      5
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      7,
+      -2
+    ],
+    [
+      7,
+      -7
+    ],
+    [
+      2,
+      -7
+    ]
+  ],
+  "side_lengths": [
+    6,
+    6,
+    8
+  ],
+  "coordinate_system": "axial pointy-top (q,r)",
+  "cell_count": 113,
+  "radius_of_view": 7,
+  "special_tiles": {
+    "flame": {
+      "name": "烈焰格子",
+      "description": "站在其上面的机甲，每轮结算开始时会减少400HP",
+      "damage_per_turn": 400
+    }
+  },
+  "special_rules": {
+    "flame_ring": {
+      "name": "烈焰包围",
+      "description": "每隔三回合，地图最外面一圈普通格子就会变成烈焰格子。地图会慢慢地从外到内被烈焰格子覆盖。",
+      "first_round": 3,
+      "interval_rounds": 3,
+      "damage_per_turn": 400,
+      "convert_tile_types": [
+        "floor",
+        "ground",
+        "spawn"
+      ]
+    }
+  },
+  "terrain_images": {
+    "player_light": "assets/maps/map_002_terrain_light.png",
+    "player_dark": "assets/maps/map_002_terrain_dark.png"
+  },
+  "team_bases": {},
+  "spawn_tiles": {
+    "Team I": [
+      [
+        -4,
+        4
+      ]
+    ],
+    "Team II": [
+      [
+        6,
+        -6
+      ]
+    ]
+  },
+  "respawn_tiles": {
+    "Team I": [
+      [
+        -4,
+        4
+      ]
+    ],
+    "Team II": [
+      [
+        6,
+        -6
+      ]
+    ]
+  },
+  "respawn_rounds": {
+    "Team I": 3,
+    "Team II": 3
+  },
+  "bunkers": [],
+  "obstacles": [],
+  "wall_segments": [],
+  "treasure_chests": {},
+  "tiles": [
+    {
+      "coord": [
+        -5,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -5,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -5,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -5,
+        3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -5,
+        4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -5,
+        5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -4,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -4,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -4,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -4,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -4,
+        3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -4,
+        4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -4,
+        5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -3,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -3,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -3,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -3,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -3,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -3,
+        3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -3,
+        4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -3,
+        5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -2,
+        5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        -1,
+        5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        -5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        0,
+        5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        -6
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        -5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        1,
+        4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        -7
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        -6
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        -5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        2,
+        3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        -7
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        -6
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        -5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        3,
+        2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        -7
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        -6
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        -5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        4,
+        1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        5,
+        -7
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        5,
+        -6
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        5,
+        -5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        5,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        5,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        5,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        5,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        5,
+        0
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        6,
+        -7
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        6,
+        -6
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        6,
+        -5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        6,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        6,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        6,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        6,
+        -1
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        7,
+        -7
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        7,
+        -6
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        7,
+        -5
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        7,
+        -4
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        7,
+        -3
+      ],
+      "type": "floor",
+      "blocking": false
+    },
+    {
+      "coord": [
+        7,
+        -2
+      ],
+      "type": "floor",
+      "blocking": false
+    }
+  ],
+  "team_max_players": {
+    "Team I": 1,
+    "Team II": 1
+  },
+  "victory_conditions": {
+    "Team I": [
+      {
+        "type": "defeat_all_enemies",
+        "target_team": "Team II",
+        "description": "Shot down Team II mech"
+      }
+    ],
+    "Team II": [
+      {
+        "type": "defeat_all_enemies",
+        "target_team": "Team I",
+        "description": "Shot down Team I mech"
+      }
+    ]
+  },
+  "defeat_conditions": {
+    "Team I": [
+      {
+        "type": "all_units_defeated",
+        "description": "Team I mech is shot down"
+      }
+    ],
+    "Team II": [
+      {
+        "type": "all_units_defeated",
+        "description": "Team II mech is shot down"
+      }
+    ]
+  }
+}

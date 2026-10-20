@@ -1,0 +1,28 @@
+# Runtime data (accounts, sessions, and saved battles)
+storage/
+
+# Temporary files and local browser profiles
+temp/
+*.tmp
+*.log
+
+# Dependencies and generated caches
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Office temporary and backup files
+~$*
+~WRL*.tmp
+*.bak

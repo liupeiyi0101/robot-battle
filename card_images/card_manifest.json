@@ -1,0 +1,296 @@
+[
+  {
+    "type": "attack",
+    "id": "001",
+    "name": "轻型机枪",
+    "file": "card_images/attack_001.png"
+  },
+  {
+    "type": "attack",
+    "id": "002",
+    "name": "中型机枪",
+    "file": "card_images/attack_002.png"
+  },
+  {
+    "type": "attack",
+    "id": "003",
+    "name": "重型机枪",
+    "file": "card_images/attack_003.png"
+  },
+  {
+    "type": "attack",
+    "id": "004",
+    "name": "强力重机枪",
+    "file": "card_images/attack_004.png"
+  },
+  {
+    "type": "attack",
+    "id": "005",
+    "name": "导弹",
+    "file": "card_images/attack_005.png"
+  },
+  {
+    "type": "attack",
+    "id": "006",
+    "name": "长程导弹",
+    "file": "card_images/attack_006.png"
+  },
+  {
+    "type": "attack",
+    "id": "007",
+    "name": "重型导弹",
+    "file": "card_images/attack_007.png"
+  },
+  {
+    "type": "attack",
+    "id": "008",
+    "name": "高爆重型导弹",
+    "file": "card_images/attack_008.png"
+  },
+  {
+    "type": "attack",
+    "id": "009",
+    "name": "战刃",
+    "file": "card_images/attack_009.png"
+  },
+  {
+    "type": "attack",
+    "id": "010",
+    "name": "光束战刃",
+    "file": "card_images/attack_010.png"
+  },
+  {
+    "type": "attack",
+    "id": "011",
+    "name": "长程光束战刃",
+    "file": "card_images/attack_011.png"
+  },
+  {
+    "type": "attack",
+    "id": "012",
+    "name": "战斧",
+    "file": "card_images/attack_012.png"
+  },
+  {
+    "type": "attack",
+    "id": "013",
+    "name": "光束战斧",
+    "file": "card_images/attack_013.png"
+  },
+  {
+    "type": "attack",
+    "id": "014",
+    "name": "光束步枪",
+    "file": "card_images/attack_014.png"
+  },
+  {
+    "type": "attack",
+    "id": "015",
+    "name": "长程光束步枪",
+    "file": "card_images/attack_015.png"
+  },
+  {
+    "type": "attack",
+    "id": "016",
+    "name": "重型光束步枪",
+    "file": "card_images/attack_016.png"
+  },
+  {
+    "type": "attack",
+    "id": "017",
+    "name": "霰弹枪",
+    "file": "card_images/attack_017.png"
+  },
+  {
+    "type": "attack",
+    "id": "018",
+    "name": "重型霰弹枪",
+    "file": "card_images/attack_018.png"
+  },
+  {
+    "type": "attack",
+    "id": "019",
+    "name": "强力霰弹枪",
+    "file": "card_images/attack_019.png"
+  },
+  {
+    "type": "attack",
+    "id": "051",
+    "name": "雷霆冲击",
+    "file": "card_images/attack_051.png"
+  },
+  {
+    "type": "attack",
+    "id": "052",
+    "name": "飞盾攻击",
+    "file": "card_images/attack_052.png"
+  },
+  {
+    "type": "attack",
+    "id": "081",
+    "name": "地狱之刺",
+    "file": "card_images/attack_081.png"
+  },
+  {
+    "type": "attack",
+    "id": "082",
+    "name": "地狱火",
+    "file": "card_images/attack_082.png"
+  },
+  {
+    "type": "attack",
+    "id": "083",
+    "name": "地狱毁灭粒子炮",
+    "file": "card_images/attack_083.png"
+  },
+  {
+    "type": "defense",
+    "id": "001",
+    "name": "防御",
+    "file": "card_images/defense_001.png"
+  },
+  {
+    "type": "defense",
+    "id": "002",
+    "name": "全轮防御",
+    "file": "card_images/defense_002.png"
+  },
+  {
+    "type": "defense",
+    "id": "003",
+    "name": "回避",
+    "file": "card_images/defense_003.png"
+  },
+  {
+    "type": "defense",
+    "id": "004",
+    "name": "全轮回避",
+    "file": "card_images/defense_004.png"
+  },
+  {
+    "type": "defense",
+    "id": "005",
+    "name": "盾防(小)",
+    "file": "card_images/defense_005.png"
+  },
+  {
+    "type": "defense",
+    "id": "006",
+    "name": "盾防(中)",
+    "file": "card_images/defense_006.png"
+  },
+  {
+    "type": "defense",
+    "id": "007",
+    "name": "盾防(大)",
+    "file": "card_images/defense_007.png"
+  },
+  {
+    "type": "defense",
+    "id": "009",
+    "name": "全轮盾防(小)",
+    "file": "card_images/defense_008.png"
+  },
+  {
+    "type": "defense",
+    "id": "010",
+    "name": "全轮盾防(中)",
+    "file": "card_images/defense_009.png"
+  },
+  {
+    "type": "defense",
+    "id": "011",
+    "name": "协助防御",
+    "file": "card_images/defense_010.png"
+  },
+  {
+    "type": "defense",
+    "id": "031",
+    "name": "电磁盾",
+    "file": "card_images/defense_031.png"
+  },
+  {
+    "type": "defense",
+    "id": "032",
+    "name": "地狱甲壳",
+    "file": "card_images/defense_032.png"
+  },
+  {
+    "type": "utility",
+    "id": "001",
+    "name": "移动1",
+    "file": "card_images/utility_001.png"
+  },
+  {
+    "type": "utility",
+    "id": "002",
+    "name": "移动2",
+    "file": "card_images/utility_002.png"
+  },
+  {
+    "type": "utility",
+    "id": "003",
+    "name": "移动3",
+    "file": "card_images/utility_003.png"
+  },
+  {
+    "type": "utility",
+    "id": "004",
+    "name": "移动4",
+    "file": "card_images/utility_004.png"
+  },
+  {
+    "type": "utility",
+    "id": "005",
+    "name": "移动5",
+    "file": "card_images/utility_005.png"
+  },
+  {
+    "type": "utility",
+    "id": "006",
+    "name": "突击2",
+    "file": "card_images/utility_006.png"
+  },
+  {
+    "type": "utility",
+    "id": "007",
+    "name": "突击3",
+    "file": "card_images/utility_007.png"
+  },
+  {
+    "type": "utility",
+    "id": "008",
+    "name": "突击4",
+    "file": "card_images/utility_008.png"
+  },
+  {
+    "type": "utility",
+    "id": "009",
+    "name": "突击5",
+    "file": "card_images/utility_009.png"
+  },
+  {
+    "type": "utility",
+    "id": "010",
+    "name": "闪现2",
+    "file": "card_images/utility_010.png"
+  },
+  {
+    "type": "utility",
+    "id": "011",
+    "name": "闪现3",
+    "file": "card_images/utility_011.png"
+  },
+  {
+    "type": "utility",
+    "id": "012",
+    "name": "闪现4",
+    "file": "card_images/utility_012.png"
+  },
+  {
+    "type": "utility",
+    "id": "013",
+    "name": "闪现5",
+    "file": "card_images/utility_013.png"
+  }
+]
